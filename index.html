@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CONVERSÃO DE GRAU</h1>
+
+        <div class="converter">
+            <label>De Celsius:</label>
+            <input type="number" id="celsiusInput" placeholder="Valor da temperatura em Celsius">
+            
+            <label>Para Fahrenheit:</label>
+            <input type="text" id="fahrenheitOutput" readonly>
+            
+            <label>De Fahrenheit:</label>
+            <input type="number" id="fahrenheitInput" placeholder="Valor da temperatura em Fahrenheit">
+            
+            <label>Para Celsius:</label>
+            <input type="text" id="celsiusOutput" readonly>
+
+            <button onclick="converter()">Converter</button>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
